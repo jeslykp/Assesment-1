@@ -3,11 +3,11 @@ import { Routes, Route, Link } from "react-router-dom";
 import StudentList from "./pages/StudentList";
 import StudentDetail from "./pages/StudentDetail";
 import StudentForm from "./pages/StudentForm";
+import "./index.css";
 
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Navbar */}
       <nav className="bg-teal-600 text-white p-4 shadow-md">
         <div className="max-w-5xl mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold"> Student Management</h1>
